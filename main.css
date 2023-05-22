@@ -1,0 +1,654 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#droper{
+	background-color: #fcc302;
+	height: auto;
+	color: white;
+	padding: 30px 0px 30px 0px;
+}
+
+#droper h1{
+	font-family: high tower text;
+	font-weight: bold;
+	color: white;
+}
+
+#droper p{
+	font-family: arial;
+	font-size: 25px;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	margin: 0px 0px 40px 0px;
+}
+
+#droper button{
+	align-self: flex-start;
+	padding: 9px 35px;
+	font-family: consolas;
+	font-weight: bold;
+	color: white;
+	background-color: #00bec9;
+	border: none;
+	border-radius: 6px;
+	font-size: 1.5rem;
+}
+
+
+#b2{
+	background-color: #fcc302 !important;
+	border: 3px solid white !important;
+	margin-left: 40px;
+}
+
+
+@media only screen and (max-width: 1024px){
+	#droper h1{
+		font-size: 52px;
+	}
+	#droper p{
+		font-size: 20px;
+	}
+
+	#droper button{
+		font-size: 1rem;
+	}
+}
+
+
+
+@media only screen and (max-width: 768px){
+	#droper h1{
+		font-size: 2.2rem;
+	}
+	#droper p{
+		font-size: 0.9rem;
+	}
+
+	#droper button{
+		font-size: 0.8rem;
+	}
+	#droper{
+		padding: 30px 0px 30px 0px;
+	}
+
+}
+
+
+@media only screen and (max-width: 576px){
+	#droper{
+		display: flex !important;
+		justify-content: center !important;
+		align-items: center !important;
+	}
+	#droper{
+		height: 70vh;
+	}
+	#droper button{
+		padding: 9px 35px;
+		font-size: 0.7rem;
+	}
+}
+
+@media only screen and (max-width: 320px){
+	#droper h1{
+		font-size: 1.8rem;
+	}
+	#droper p{
+		font-size: 0.7rem;
+	}
+
+	#droper button{
+		font-size: 0.6rem;
+		padding: 9px 20px;
+	}
+}
+
+
+
+#navbar{
+	background-color: #daac00;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+
+nav ul{
+	font-size: 1.5rem;
+	font-family: arial;
+	font-weight: bold;
+	margin-left: 8%;
+}
+
+
+@media only screen and (max-width: 768px){
+	nav ul{
+		margin:0 !important;
+	}
+}
+
+
+#upper{
+	height:auto;
+	padding: 100px 0px 100px 0px;
+}
+
+#upper h1{
+	font-family: high tower text;
+	font-weight: bold;	
+}
+
+#upper p{
+	font-family: 'Kanit', sans-serif;
+	font-size: 1.6rem;
+	margin: 0px 0px 40px 0px;
+}
+
+#upper button{
+	padding: 9px 35px;
+	font-family: consolas;
+	font-weight: bold;
+	color: white;
+	background-color: #fcc302;
+	border: none;
+	border-radius: 6px;
+	font-size: 1.5rem;
+}
+
+
+@media only screen and (max-width: 1024px){
+	#upper h1{
+		font-size: 3rem;
+	}
+	#upper p{
+		font-size: 1.3rem;
+	}
+	#upper button{
+		font-size: 1rem;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	#upper{
+		padding: 70px 0px 70px 0px;
+	}
+	#upper h1{
+		font-size: 2.5rem;
+	}
+	#upper p{
+		font-size: 1.1rem;
+	}
+	#upper button{
+		font-size: 1rem;
+	}
+}
+
+
+@media only screen and (max-width: 576px){
+	#upper button{
+		margin-bottom: 30%;
+	}
+	#upper h1{
+		font-size: 2.2rem;
+	}
+}
+
+@media only screen and (max-width: 320px){
+	#upper h1{
+		font-size: 2rem;
+	}
+	#upper p{
+		font-size: 1rem;
+	}
+}
+
+
+/*middle*/
+#middle{
+	background-color: #fcc302;
+	color: white;
+	padding: 70px 0px 50px 0px;
+}
+
+
+#middle h1{
+	font-weight: bold;
+	font-family: 'Unbounded', cursive;
+}
+
+#middle p{
+	font-family: 'Kanit', sans-serif;
+	font-size: 1.5rem;
+	margin-bottom: 60px;
+}
+
+#middleone h2{
+	font-family: 'Unbounded', cursive;
+	font-size: 1.6rem;
+	margin: 20px 0px 10px 0px;
+}
+
+#middleone p{
+	font-family: 'Kanit', sans-serif;
+	font-size:1.2rem;
+}
+
+
+@media only screen and (max-width: 1024px){
+	#middle{
+		padding-bottom: 10px;
+	}
+	#middleone h2{
+		font-size: 1.3rem;
+	}
+	#middleone p{
+		font-size: 1.1rem;
+	}
+}
+
+
+
+@media only screen and (max-width: 768px){
+	#middleone h2{
+		font-size: 1.2rem;
+	}
+	#middleone p{
+		font-size: 0.8rem;
+	}
+}
+
+
+@media only screen and (max-width:576px){
+	#middle h1{
+		font-size: 3.5rem;
+	}
+	#middle p{
+		font-size: 1rem;
+	}
+	#middleone{
+		margin-left:0 ;
+	}
+	#middleone h2{
+		font-size: 1.7rem;
+	}
+	#middleone p{
+		font-size: 1.3rem;
+	}
+}
+
+
+@media only screen and (max-width: 320px){
+	#middle h1{
+		font-size: 3rem;
+	}
+	#middle p{
+		font-size: 0.9rem;
+	}
+}
+
+
+
+
+/*upper2*/
+#upper2{
+	height:auto;
+	padding: 100px 0px 100px 0px;
+}
+
+#upper2 h1{
+	font-family: high tower text;
+	font-weight: bold;	
+}
+
+#upper2 p{
+	font-family: 'Kanit', sans-serif;
+	font-size: 1.6rem;
+	margin: 0px 0px 40px 0px;
+}
+
+#upper2 button{
+	padding: 9px 35px;
+	font-family: consolas;
+	font-weight: bold;
+	color: white;
+	background-color: #fcc302;
+	border: none;
+	border-radius: 6px;
+	font-size: 1.5rem;
+}
+
+
+@media only screen and (max-width: 1024px){
+	#upper2 h1{
+		font-size: 3rem;
+	}
+	#upper2 p{
+		font-size: 1.3rem;
+	}
+	#upper2 button{
+		font-size: 1rem;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	#upper2{
+		padding: 70px 0px 70px 0px;
+	}
+	#upper2 h1{
+		font-size: 2.5rem;
+	}
+	#upper2 p{
+		font-size: 1.1rem;
+	}
+	#upper2 button{
+		font-size: 1rem;
+	}
+}
+
+
+@media only screen and (max-width: 576px){
+	#upper2 button{
+		margin-bottom: 30%;
+	}
+	#upper2 h1{
+		font-size: 2.2rem;
+	}
+	#upper2one{
+		margin-top: 35px;
+	}
+}
+
+@media only screen and (max-width: 320px){
+	#upper2 h1{
+		font-size: 2rem;
+	}
+	#upper2 p{
+		font-size: 1rem;
+	}
+}
+
+
+
+/*middle2*/
+#middle2{
+	background-color: #fcc302;
+	color: white;
+	padding: 70px 0px 50px 0px;
+}
+
+
+#middle2 h1{
+	font-weight: bold;
+	font-family: 'Unbounded', cursive;
+}
+
+#middle2 p{
+	font-family: 'Kanit', sans-serif;
+	font-size: 1.5rem;
+	margin-bottom: 60px;
+}
+
+#middleone2 h2{
+	font-family: 'Unbounded', cursive;
+	font-size: 1.6rem;
+	margin: 20px 0px 10px 0px;
+}
+#middleone2 button{
+	padding: 9px 35px;
+	font-family: consolas;
+	font-weight: bold;
+	color: white;
+	background-color: #00bec9;
+	border: none;
+	border-radius: 35px;
+	font-size: 1.5rem;
+}
+
+
+@media only screen and (max-width: 1024px){
+	#middle2{
+		padding-bottom: 10px;
+	}
+	#middleone2 h2{
+		font-size: 1.3rem;
+	}
+}
+
+
+
+@media only screen and (max-width: 768px){
+	#middleone2 h2{
+		font-size: 1.2rem;
+	}
+	#middleone2 button{
+		margin-bottom: 30px;
+		font-size: 1.2rem;
+	}
+	
+}
+
+
+@media only screen and (max-width:576px){
+	#middle2 h1{
+		font-size: 3.5rem;
+	}
+	#middle2 p{
+		font-size: 1rem;
+	}
+	#middleone2{
+		margin-left:0 ;
+	}
+	#middleone2 h2{
+		font-size: 1.7rem;
+	}
+	
+}
+
+
+@media only screen and (max-width: 320px){
+	#middle2 h1{
+		font-size: 3rem;
+	}
+	#middle2 p{
+		font-size: 0.9rem;
+	}
+}
+
+
+/*middle3*/
+#middle3{
+	padding: 70px 0px 50px 0px;
+}
+
+
+#middle3 h1{
+	font-weight: bold;
+	font-family: 'Unbounded', cursive;
+}
+
+#middle3 p{
+	font-family: 'Kanit', sans-serif;
+	font-size: 1.5rem;
+	margin-bottom: 60px;
+}
+
+#middleone3 h3{
+	font-family: high tower text;
+	font-size: 2rem;
+	font-weight: bold;
+	margin: 20px 0px 10px 0px;
+}
+
+#middleone3 p{
+	font-family: 'Kanit', sans-serif;
+	font-size:1.2rem;
+	letter-spacing: 2px;
+	margin-bottom: 5px;
+}
+#middleone3 i{
+	margin-left: 15px;
+	font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1024px){
+	#middle3{
+		padding-bottom: 50px;
+	}
+	#middleone3 h3{
+		font-size: 1.6rem;
+	}
+	#middleone3 p{
+		font-size: 1rem;
+		margin-bottom: 20px;
+	}
+	#middleone3 i{
+		margin-left: 10px;
+		font-size: 1rem;
+	}
+}
+
+
+
+@media only screen and (max-width: 768px){
+	#middleone3 h3{
+		font-size: 1.5rem;
+	}
+	#middleone3 p{
+		font-size: 0.9rem;
+	}
+	#middleone3 i{
+		margin-left: 8px;
+		font-size: 1rem;
+	}
+}
+
+
+@media only screen and (max-width:576px){
+	#middle3 h1{
+		font-size: 2rem;
+	}
+	#middle3 p{
+		font-size: 1rem;
+	}
+	#middleone3{
+		margin-left:0 ;
+	}
+	#middleone3 h3{
+		font-size: 1.9rem;
+	}
+	#middleone3 p{
+		font-size: 1.3rem;
+	}
+	.hollar{
+		margin-bottom: 50px;
+	}
+}
+
+
+@media only screen and (max-width: 320px){
+	#middle3 h1{
+		font-size: 1.5rem;
+	}
+	#middle3 p{
+		font-size: 0.9rem;
+	}
+}
+
+
+/*last*/
+#last{
+	height: 70vh;
+	background-color: #343434;
+	color:white;
+	padding-bottom: 60px;
+}
+
+#last h2{
+	font-family: 'Righteous', cursive;
+	font-size: 3rem;
+}
+#last a{
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+	font-size: 1.5rem;
+
+}
+
+#last3 p{
+	font-size: 1.1rem;
+	font-family: high tower text;
+}
+
+.metoo{
+	margin-top: 20px;
+}
+
+#last3 i{
+	margin-left: 15px;
+	font-size: 1.2rem;
+}
+
+#last3 input{
+	width: 100%;
+	padding:30px;
+	outline: none;
+}
+#last3 input[type="search"]{
+	font-family: consolas;
+	color:gray;
+	padding: 0px 20px;
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+	#last h2{
+		font-size: 2rem;
+	}
+	#last a{
+		font-size: 1rem;
+	}
+	#last3 p{
+		font-size: 1rem;
+	}
+	#last3 input[type="search"]{
+		padding: 5px;
+	}
+	#last3 i {
+    	margin-left: 15px;
+    	font-size: 1rem;
+	}
+}
+
+
+@media only screen and (max-width:576px){
+	#last{
+		height: auto;
+		padding: 20px 0px 20px 0px;
+	}
+	#last h2{
+		font-size: 1rem;
+	}
+	#last p{
+		font-size: 0.8rem;
+	}
+	#last1,#last2{
+		margin-bottom: 40px;
+	}
+}
+
+
+@media only screen and (max-width: 320px){
+	#middle3 h1{
+		font-size: 1.5rem;
+	}
+	#middle3 p{
+		font-size: 0.9rem;
+	}
+}
